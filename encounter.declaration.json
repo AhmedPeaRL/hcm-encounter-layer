@@ -1,0 +1,20 @@
+{
+  "layer": "encounter",
+
+  "definition": {
+    "encounter_is_not_interaction": true,
+    "no_response_expected": true,
+    "no_state_change": true
+  },
+
+  "trigger": {
+    "source": "presence_surface",
+    "user_action": "declare_encounter"
+  },
+
+  "output": {
+    "encounter_id": "generated",
+    "timestamp": "recorded",
+    "context_snapshot": "optional"
+  }
+}
